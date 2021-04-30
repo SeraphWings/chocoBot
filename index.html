@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>ChocoBot</title>
+
+        <style>
+          html {
+            font-family: sans-serif;
+          }
+
+          body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+          }
+
+          .lastResult {
+            color: white;
+            padding: 3px;
+          }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>chocoBot</h1>
+
+        <div class="user">
+
+            <label for= "chatText"> Do you want to talk to me? <br></label>
+            <input type="text" id = "chatText" class="chatText" >
+            <input type="submit" class="chatSubmit" value="->">
+        </div>
+
+        <div class="response">
+            <pre class= "responseText"></pre>
+        </div>
+
+
+    </body>
+
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+
+</html>
