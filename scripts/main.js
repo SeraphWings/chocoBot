@@ -1,4 +1,4 @@
-import sendChat from "./sendChat.js"
+import sendChat from './sendChat.js'
 
 const chatSubmit = document.querySelector('.chatSubmit');
 const chatText = document.querySelector('.chatText');
