@@ -18,6 +18,12 @@ const server = http.createServer((req ,res) => {
         res.end();
     });
 
+    req.on('data', chunk => {
+        console.log(`receive data ${ chunk }`);
+    })
+
+
+
 });
 
 server.listen(port, hostName, () => {
