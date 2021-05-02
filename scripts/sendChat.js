@@ -1,4 +1,4 @@
-export function sendChat() {
+export default function sendChat() {
     responseText.textContent = responseText.textContent +  '\n' + chatText.value;
     chatText.value = '';
 
